@@ -28,8 +28,9 @@ Caso o ambiente a ser testado esteja dentro do perímetro do firewall, serão ne
 </p>
 
 ## Exemplo
+- Exemplo de estrutura de comunicação do SUSE Rancher
 <p align="center">
-<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-structure.PNG" width="850" title="Rancher Ports">
+<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-structure.PNG" width="250" title="Rancher Ports">
 </p>
 
 ## Agenda
