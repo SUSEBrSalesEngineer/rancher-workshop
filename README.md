@@ -6,5 +6,24 @@
 </p>
 
 ## Descrição
+O seguinte documento descreve os pré-requisitos mínimos para a construção de um ambiente de teste envolvendo a solução Rancher Management. As recomendações mínimas aqui contidas cobrem um cenário apenas de teste e validação da ferramenta, não sendo recomendadas para um ambiente de produção.
+
 ## Pré-requisito
+### Máquinas
+Será necessário um cluster inicial de Rancher e um segundo equipamento para instalação do cluster cliente. <br/> Para tal, será requerido as seguintes configurações para o Cluster SUSE Rancher e o Cluster cliente:
+
+Quantidade | Item | Características
+| :---: | :---: | :---
+2 | IP elásticos na Amazon | Acesso ao Rancher, em caso do Racher ser instalado em cloud 
+1 | IP válido para uso do LoadBalancer (MetalLB) | Acesso a console, em caso do Rancher ser instalado em ambiente On-PREM 
+1 | Máquina | *On-prem ou na nuvem* <br/> - 64 bits <br/> - RAM: 8 GB <br/> - Processadore(s) ou Core(s): 2 <br/> - Disco: 40 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
+1 | Máquina para deployment | *On-prem ou na nuvem*. Pode ser utilizada a máquina pessoal do administrador <br/> - 64 bits <br/> - RAM: 4 GB <br/> - Processadore(s) ou Core(s): 2 <br/> - Disco: 30 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
+1 | Máquina para cluster adicional | *On-prem ou na nuvem*. - 64 bits <br/> - RAM: 16 GB <br/> - Processadore(s) ou Core(s): 4 <br/> - Disco: 100 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
+
+### Conectividade de rede e acessos:
+Caso o ambiente a ser testado esteja dentro do perímetro do firewall, serão necessárias as seguintes regras de liberação de portas no Firewall para comunicação do SUSE Rancher Cluster cliente e serviços externos de instalação: [Rancher Requirements Ports](https://rancher.com/docs/rancher/v2.x/en/installation/requirements/ports/)
+
+<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-logo-horiz-color.png" width="150" title="Rancher Ports">
+
+
 ## Agenda
