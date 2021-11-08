@@ -25,5 +25,6 @@ curl -sfL https://get.k3s.io | K3S_URL=https://<FQDN>:6443 K3S_TOKEN=<TOKEN> sh 
 ```
 A chave está dentro do arquivo /var/lib/rancher/k3s/server/node-token
 
+---
 ### Adicionar cluster ao Rancher
-Com o cluster criado, é fácil adiciona-lo ao Rancher
+Com o cluster criado, é fácil adicioná-lo ao Rancher
