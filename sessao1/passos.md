@@ -67,6 +67,6 @@ AllowTcpForwarding yes
 > Para mais detalhes do processo de preparacão das máquinas, acessar a [página do RKE](https://rancher.com/docs/rke/latest/en/os/) no site da Rancher: 
 
 
-### Criar o cluster
+### Criar o cluster e preparar o Rancher
 Após procedimento de preparacão da máquina, estamos prontos para criar o nosso cluster.
 Esse procedimento está descrito no seguinte [link](https://rancher.com/docs/rke/latest/en/installation/), e pode ser usado para maiores detalhes.
