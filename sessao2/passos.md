@@ -30,5 +30,5 @@ A chave está dentro do arquivo /var/lib/rancher/k3s/server/node-token
 Com o cluster criado, é fácil adicioná-lo ao Rancher
 
 <p>
-  <img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/add-cluster.gif" width="850" title="Add cluster">
+  <img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/cluster-add.mp4" width="850" title="Add cluster">
 </p>
