@@ -1,6 +1,6 @@
 ## Sessão 2 - Adicionando outros clusters ao Rancher
 Essa sessão visa adicionar um cluster secundário ao nosso Rancher Management.
-Caso você já possua o seu cluster secundário criado, pular para a sessão [Adicionando o cluster ao Rancher]().
+Caso você já possua o seu cluster secundário criado, pular para a sessão [Adicionando o cluster ao Rancher](https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/sessao2/passos.md#adicionar-cluster-ao-rancher).
 
 ### Criar um cluster Kubernetes com K3s
 Dessa vez, utilizaremos o K3s para criar o nosso cluster secundário.
