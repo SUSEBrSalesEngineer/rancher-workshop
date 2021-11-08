@@ -34,3 +34,7 @@ Caso o ambiente a ser testado esteja dentro do perímetro do firewall, serão ne
 </p>
 
 ## Agenda
+**Sessão 1**
+**Sessão 2**
+**Sessão 3**
+**Sessão 4**
