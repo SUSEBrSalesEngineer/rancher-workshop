@@ -6,5 +6,17 @@ A SUSE entrega três opções de provisionadores de cluster Kubernetes e você p
 ----
 Nessa sessão, utilizaremos o K3S pra provisionar o nosso cluster:
 
-* 
+1. Instalar k3s via script automatizado
+```
+curl -sfL https://get.k3s.io | K3S_KUBECONFIG_MODE=0644 sh -
+```
+Outros parâmetros podem ser passados ao script de instalação como alterar a rede, escolher a versão do Kubernetes.<br/> Veja as demais opções nesse [link](https://rancher.com/docs/k3s/latest/en/installation/install-options/)
 
+2. Aguardar a inicialização de todos os pods do Kubernetes. Esse tempo é necessário para que todos os componentes subam com êxito.<br/>
+O processo pode ser acompanhado através do comando: 
+```
+kubectl get pods -A
+```
+Caso todos os componentes apareçam como "Running" ou "Completed", você está pronto para ir para o próximo ponto.
+
+3. 
