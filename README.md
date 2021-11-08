@@ -34,10 +34,9 @@ Caso o ambiente a ser testado esteja dentro do perímetro do firewall, serão ne
 </p>
 
 ## Agenda
-**Sessão 1**
+**Sessão 1**: Criação do cluster Kubernetes e Rancher
 
-**Sessão 2**
+**Sessão 2**: Adicionar um cluster secundário no Rancher
 
-**Sessão 3**
+**Sessão 3**: Deploy de aplicações
 
-**Sessão 4**
