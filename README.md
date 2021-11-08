@@ -1,2 +1,1 @@
-*Rancher Workshop*
 # Rancher Workshop
