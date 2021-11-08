@@ -17,7 +17,7 @@ Quantidade | Item | Características
 2 | IP elásticos na Amazon | Acesso ao Rancher, em caso do Racher ser instalado em cloud 
 1 | IP válido para uso do LoadBalancer (MetalLB) | Separação de um range de 3 IPs para deploy de aplicação teste 
 1 | Máquina | *On-prem ou na nuvem* <br/> - 64 bits <br/> - RAM: 8 GB <br/> - Processadore(s) ou Core(s): 2 <br/> - Disco: 40 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
-1 | Máquina para deployment | *On-prem ou na nuvem*. Pode ser utilizada a máquina pessoal do administrador <br/> - 64 bits <br/> - RAM: 4 GB <br/> - Processadore(s) ou Core(s): 2 <br/> - Disco: 30 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
+1 | Máquina para deployment | *On-prem ou na nuvem*. <br/> Pode ser utilizada a máquina pessoal do administrador <br/> - 64 bits <br/> - RAM: 4 GB <br/> - Processadore(s) ou Core(s): 2 <br/> - Disco: 30 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
 1 | Máquina para cluster adicional | *On-prem ou na nuvem*. - 64 bits <br/> - RAM: 16 GB <br/> - Processadore(s) ou Core(s): 4 <br/> - Disco: 100 GB <br/> - Rede IPv4 – 1 IP com conectividade ao cliente para a PoC.   <br/>  - **Ou t3-medium na aws**
 
 ### Conectividade de rede e acessos:
