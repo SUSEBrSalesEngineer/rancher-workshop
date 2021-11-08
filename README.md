@@ -23,7 +23,13 @@ Quantidade | Item | Características
 ### Conectividade de rede e acessos:
 Caso o ambiente a ser testado esteja dentro do perímetro do firewall, serão necessárias as seguintes regras de liberação de portas no Firewall para comunicação do SUSE Rancher Cluster cliente e serviços externos de instalação: [Rancher Requirements Ports](https://rancher.com/docs/rancher/v2.x/en/installation/requirements/ports/)
 
-<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-logo-horiz-color.png" width="150" title="Rancher Ports">
+<p align="center">
+<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-ports.PNG" width="850" title="Rancher Ports">
+</p>
 
+## Exemplo
+<p align="center">
+<img src="https://github.com/SUSEBrSalesEngineer/rancher-workshop/blob/main/img/rancher-structure.PNG" width="850" title="Rancher Ports">
+</p>
 
 ## Agenda
